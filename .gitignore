@@ -1,4 +1,6 @@
 */CMakeFiles/*
+cmake-build-debug/*
+*/cmake-build-debug/*
 
 # Clion project files
 */*.idea
@@ -12,3 +14,13 @@
 
 # gedit autosave files
 *~
+
+# python bytecode
+*.pyc
+
+# bag files
+*.bag
+
+# ML training data and logs
+rr_ml/data/*
+rr_ml/tensorboard_logs/*
